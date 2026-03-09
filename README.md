@@ -4,12 +4,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Stars](https://img.shields.io/github/stars/mergisi/awesome-openclaw-agents?style=social)](https://github.com/mergisi/awesome-openclaw-agents)
-[![Agents](https://img.shields.io/badge/agents-100-blueviolet)](agents/)
+[![Agents](https://img.shields.io/badge/agents-101-blueviolet)](agents/)
 
-> A curated collection of **100 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
+> A curated collection of **101 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20100%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20101%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
 </p>
 
 <div align="center">
@@ -26,7 +26,7 @@ Pick a role. Customize the config. Get a full deploy package. No terminal requir
 
 ## Contents
 
-- [Agent Templates](#agent-templates) (100 agents across 18 categories)
+- [Agent Templates](#agent-templates) (101 agents across 18 categories)
   - [Productivity](#productivity) · [Development](#development) · [Marketing](#marketing--content) · [Business](#business) · [Personal](#personal)
   - [DevOps](#devops) · [Finance](#finance) · [Education](#education) · [Healthcare](#healthcare) · [Legal](#legal) · [HR](#hr) · [Creative](#creative) · [Security](#security)
   - [E-Commerce](#e-commerce) · [Data](#data) · [SaaS](#saas) · [Real Estate](#real-estate) · [Freelance](#freelance)
@@ -54,7 +54,7 @@ npm install && cp ../agents/productivity/orion/SOUL.md ./SOUL.md
 node bot.js
 ```
 
-> All 100 agents are also available as machine-readable JSON: [`agents.json`](agents.json)
+> All 101 agents are also available as machine-readable JSON: [`agents.json`](agents.json)
 
 > **Skip the setup?** [CrewClaw](https://crewclaw.com/create-agent) generates a full deploy package (Dockerfile + docker-compose + bot + README) for any role. $29 one-time.
 
@@ -127,6 +127,7 @@ node bot.js
 | [💪 Iron](agents/personal/fitness-coach/) | Workout planner, nutrition tracker, progress reports | [View](agents/personal/fitness-coach/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=fitness-coach) |
 | [🏠 Home Automation](agents/personal/home-automation/) | Smart home control via Telegram, Home Assistant | [View](agents/personal/home-automation/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
 | [👨‍👩‍👧‍👦 Family Coordinator](agents/personal/family-coordinator/) | Shared calendar, meal planning, chore rotation | [View](agents/personal/family-coordinator/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
+| [📞 Vox](agents/personal/voice-assistant/) | Voice calling, SMS, call missions with transcription | [View](agents/personal/voice-assistant/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent) |
 
 ### DevOps
 
