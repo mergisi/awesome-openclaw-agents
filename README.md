@@ -444,6 +444,7 @@ Utilities and helpers for working with OpenClaw.
 
 | Tool | Description |
 |------|-------------|
+| [ClawGuard](https://github.com/NeuZhou/clawguard) | 🛡️ AI agent security framework — prompt injection detection, PII sanitizer, 285+ threat patterns, OWASP coverage. `npx @neuzhou/clawguard scan ./` |
 | [openclaw CLI](https://crewclaw.com/blog/openclaw-cli-commands-reference) | Official CLI - complete command reference |
 | [agents.json](agents.json) | Machine-readable index of all 100 agent templates |
 | agent-validator | Validate SOUL.md syntax |
