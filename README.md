@@ -4,19 +4,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Stars](https://img.shields.io/github/stars/mergisi/awesome-openclaw-agents?style=social)](https://github.com/mergisi/awesome-openclaw-agents)
-[![Agents](https://img.shields.io/badge/agents-162-blueviolet)](agents/)
+[![Agents](https://img.shields.io/badge/agents-163-blueviolet)](agents/)
 
-> A curated collection of **162 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
+> A curated collection of **163 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20162%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20163%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
 </p>
 
 <div align="center">
 
 ### Skip the setup. Deploy in 60 seconds.
 
-**[Browse all 162 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
+**[Browse all 163 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
 
 Pick a template. Customize the config. Get a full deploy package. No terminal required.
 
@@ -34,7 +34,7 @@ Pick a template. Customize the config. Get a full deploy package. No terminal re
 
 ## Contents
 
-- [Agent Templates](#agent-templates) (162 agents across 24 categories)
+- [Agent Templates](#agent-templates) (163 agents across 24 categories)
   - [Productivity](#productivity) · [Development](#development) · [Marketing](#marketing--content) · [Business](#business) · [Personal](#personal)
   - [DevOps](#devops) · [Finance](#finance) · [Education](#education) · [Healthcare](#healthcare) · [Legal](#legal) · [HR](#hr) · [Creative](#creative) · [Security](#security)
   - [E-Commerce](#e-commerce) · [Data](#data) · [SaaS](#saas) · [Real Estate](#real-estate) · [Freelance](#freelance) · [Moltbook](#-moltbook-new)
@@ -171,6 +171,7 @@ Keeping infrastructure alive, 24/7.
 | [🖥️ Infra Monitor](agents/devops/infra-monitor/) | Server health, disk, CPU, memory | When you need proactive server monitoring with alerts | [View](agents/devops/infra-monitor/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 | [📜 Log Analyzer](agents/devops/log-analyzer/) | Log parsing, pattern detection, anomalies | When you're drowning in logs and need automated analysis | [View](agents/devops/log-analyzer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 | [💸 Cost Optimizer](agents/devops/cost-optimizer/) | Cloud spend monitoring, savings suggestions | When your cloud bill is growing and you need visibility | [View](agents/devops/cost-optimizer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
+| [🤖 LLM Cost Guardian](agents/devops/llm-cost-guardian/) | AI model spend tracking, routing optimization | When you need to cut LLM API costs across multiple providers | [View](agents/devops/llm-cost-guardian/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [🔧 Self-Healing Server](agents/devops/self-healing-server/) | Auto-restart containers, disk cleanup | When you want servers that fix themselves at 3am | [View](agents/devops/self-healing-server/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 | [🍓 Raspberry Pi Agent](agents/devops/raspberry-pi/) | Lightweight edge agent, low-RAM optimized | When you're deploying agents on Raspberry Pi or edge devices | [View](agents/devops/raspberry-pi/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 | [📋 Runbook Writer](agents/devops/runbook-writer/) | Operational runbooks from system architecture | When you need documented procedures for incident response | [View](agents/devops/runbook-writer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
@@ -456,7 +457,7 @@ How OpenClaw compares to other AI agent frameworks:
 | Self-hosted / local | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Heartbeat monitoring | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Works with Ollama (free) | ✅ | ✅ | ✅ | ✅ | ❌ |
-| Production-ready templates | **162** | 0 | 5 | 0 | 3 |
+| Production-ready templates | **163** | 0 | 5 | 0 | 3 |
 | One-command deploy | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Agent-to-agent communication | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Setup time | ~5 min | ~30 min | ~20 min | ~45 min | ~30 min |
@@ -480,7 +481,7 @@ Your CrewClaw package includes:
 └── README.md                     # Setup instructions
 ```
 
-Pick any of the 162 templates above, or create a custom agent from scratch.
+Pick any of the 163 templates above, or create a custom agent from scratch.
 
 **[Create your agent →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=bottom_cta)**
 

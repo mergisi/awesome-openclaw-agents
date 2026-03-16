@@ -1,5 +1,5 @@
 {
-  "total": 159,
+  "total": 160,
   "agents": [
     {
       "id": "churn-predictor",
@@ -263,6 +263,14 @@
       "name": "infra-monitor",
       "role": "",
       "path": "agents/devops/infra-monitor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "llm-cost-guardian",
+      "category": "devops",
+      "name": "LLM Cost Guardian",
+      "role": "AI Model Spending Analyst and Routing Optimizer",
+      "path": "agents/devops/llm-cost-guardian/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
