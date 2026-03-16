@@ -1,5 +1,5 @@
 {
-  "total": 159,
+  "total": 160,
   "agents": [
     {
       "id": "churn-predictor",
@@ -271,6 +271,14 @@
       "name": "log-analyzer",
       "role": "",
       "path": "agents/devops/log-analyzer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "manifest",
+      "category": "devops",
+      "name": "Manifest",
+      "role": "Open-source AI gateway — intelligent model routing across 300+ models",
+      "path": "agents/devops/manifest/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
