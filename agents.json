@@ -1,5 +1,5 @@
 {
-  "total": 174,
+  "total": 175,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1415,6 +1415,14 @@
       "name": "Upwork Proposal",
       "role": "Proposal Writing Agent",
       "path": "agents/freelance/upwork-proposal/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "github-pr-reviewer",
+      "category": "development",
+      "name": "GitHub PR Reviewer",
+      "role": "Pull Request Review Agent",
+      "path": "agents/development/github-pr-reviewer/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     }
   ]
