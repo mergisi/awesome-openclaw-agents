@@ -1,5 +1,5 @@
 {
-  "total": 184,
+  "total": 185,
   "agents": [
     {
       "id": "churn-predictor",
@@ -127,6 +127,14 @@
       "name": "OpenClaw Persona Forge",
       "role": "Lobster Persona Generator with 8M Gacha Combinations",
       "path": "agents/creative/openclaw-persona-forge/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "openclaw-soul-forge",
+      "category": "creative",
+      "name": "OpenClaw Soul Forge",
+      "role": "English-First Lobster Soul Forger with Gacha & Avatar Generation",
+      "path": "agents/creative/openclaw-soul-forge/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
