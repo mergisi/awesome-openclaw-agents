@@ -1,5 +1,5 @@
 {
-  "total": 184,
+  "total": 185,
   "agents": [
     {
       "id": "churn-predictor",
@@ -711,6 +711,14 @@
       "name": "metrics",
       "role": "",
       "path": "agents/productivity/metrics/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "openclaw-user-profiler",
+      "category": "productivity",
+      "name": "OpenClaw User Profiler",
+      "role": "User Profile Builder & Skill Recommender for 42 Roles",
+      "path": "agents/productivity/openclaw-user-profiler/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
