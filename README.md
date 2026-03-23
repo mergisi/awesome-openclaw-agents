@@ -572,6 +572,7 @@ Utilities and helpers for working with OpenClaw.
 |------|-------------|
 | [openclaw CLI](https://crewclaw.com/blog/openclaw-cli-commands-reference) | Official CLI - complete command reference |
 | [agents.json](agents.json) | Machine-readable index of all 187 agent templates |
+| [Claude Code Starter Kit](https://github.com/rmbell09-lang/claude-code-starter-kit) | Production-ready workspace kit: SOUL.md, AGENTS.md, MEMORY.md templates + skills for persistent OpenClaw agents |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
 
