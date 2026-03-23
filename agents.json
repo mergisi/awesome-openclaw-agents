@@ -1,5 +1,5 @@
 {
-  "total": 175,
+  "total": 184,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1423,6 +1423,86 @@
       "name": "Upwork Proposal",
       "role": "Proposal Writing Agent",
       "path": "agents/freelance/upwork-proposal/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "github-pr-reviewer",
+      "category": "development",
+      "name": "GitHub PR Reviewer",
+      "role": "Automated Pull Request Review Agent",
+      "path": "agents/development/github-pr-reviewer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "linkedin-content",
+      "category": "marketing",
+      "name": "LinkedIn Content",
+      "role": "LinkedIn Content Creation and Growth Agent",
+      "path": "agents/marketing/linkedin-content/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "x-twitter-growth",
+      "category": "marketing",
+      "name": "X/Twitter Growth",
+      "role": "Twitter/X Growth and Content Agent",
+      "path": "agents/marketing/x-twitter-growth/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "youtube-seo",
+      "category": "marketing",
+      "name": "YouTube SEO",
+      "role": "YouTube SEO Optimization Agent",
+      "path": "agents/marketing/youtube-seo/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "meeting-transcriber",
+      "category": "productivity",
+      "name": "Meeting Transcriber",
+      "role": "Meeting Transcription and Summary Agent",
+      "path": "agents/productivity/meeting-transcriber/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "api-documentation",
+      "category": "development",
+      "name": "API Documentation",
+      "role": "API Documentation Generator Agent",
+      "path": "agents/development/api-documentation/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "price-monitor",
+      "category": "ecommerce",
+      "name": "Price Monitor",
+      "role": "Competitor Price Monitoring Agent",
+      "path": "agents/ecommerce/price-monitor/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "notion-organizer",
+      "category": "productivity",
+      "name": "Notion Organizer",
+      "role": "Notion Workspace Organization Agent",
+      "path": "agents/productivity/notion-organizer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "github-issue-triager",
+      "category": "development",
+      "name": "GitHub Issue Triager",
+      "role": "GitHub Issue Triage Agent",
+      "path": "agents/development/github-issue-triager/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "resume-optimizer",
+      "category": "hr",
+      "name": "Resume Optimizer",
+      "role": "Resume and CV Optimization Agent",
+      "path": "agents/hr/resume-optimizer/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     }
   ]

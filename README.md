@@ -4,19 +4,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Stars](https://img.shields.io/github/stars/mergisi/awesome-openclaw-agents?style=social)](https://github.com/mergisi/awesome-openclaw-agents)
-[![Agents](https://img.shields.io/badge/agents-177-blueviolet)](agents/)
+[![Agents](https://img.shields.io/badge/agents-187-blueviolet)](agents/)
 
-> A curated collection of **177 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
+> A curated collection of **187 production-ready AI agent templates** for the OpenClaw ecosystem. Every template is a copy-paste ready `SOUL.md` file.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20177%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:7C3AED&height=180&section=header&text=%F0%9F%A6%9E%20187%20OpenClaw%20Agent%20Templates&fontSize=36&fontColor=ffffff&fontAlignY=35" width="100%"/>
 </p>
 
 <div align="center">
 
 ### Skip the setup. Deploy in 60 seconds.
 
-**[Browse all 177 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
+**[Browse all 187 templates →](https://crewclaw.com/agents?utm_source=github&utm_medium=readme&utm_campaign=browse)** · **[Deploy in 60 seconds →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=deploy)**
 
 Pick a template. Customize the config. Get a full deploy package. No terminal required.
 
@@ -34,18 +34,19 @@ Pick a template. Customize the config. Get a full deploy package. No terminal re
 
 ## Contents
 
-- [Agent Templates](#agent-templates) (177 agents across 24 categories)
+- [Agent Templates](#agent-templates) (187 agents across 24 categories)
   - [Productivity](#productivity) · [Development](#development) · [Marketing](#marketing--content) · [Business](#business) · [Personal](#personal)
   - [DevOps](#devops) · [Finance](#finance) · [Education](#education) · [Healthcare](#healthcare) · [Legal](#legal) · [HR](#hr) · [Creative](#creative) · [Security](#security)
   - [E-Commerce](#e-commerce) · [Data](#data) · [SaaS](#saas) · [Real Estate](#real-estate) · [Freelance](#freelance) · [Moltbook](#-moltbook-new)
   - [Supply Chain](#supply-chain) · [Compliance](#compliance) · [Voice](#voice) · [Customer Success](#customer-success) · [Automation](#automation)
 - [Use Cases](#use-cases) (132 real-world examples)
 - [Quickstart](#quickstart)
-- [Why OpenClaw?](#why-openclaw) (Comparison)
+- [Why OpenClaw?](#why-openclaw) (vs Frameworks, Lightweight, Enterprise)
 - [Quick Deploy with CrewClaw](#quick-deploy-with-crewclaw)
 - [MCP Servers](#mcp-servers)
 - [Integrations](#integrations)
 - [Tools](#tools)
+- [Security](#security)
 - [Tutorials & Guides](#tutorials--guides)
 - [Submit Your Agent](#submit-your-agent)
 - [Community](#community)
@@ -446,6 +447,8 @@ Or skip setup entirely: **[Deploy with CrewClaw →](https://crewclaw.com/create
 
 How OpenClaw compares to other AI agent frameworks:
 
+### vs AI Agent Frameworks
+
 | Feature | OpenClaw | AutoGPT | CrewAI | LangChain | MetaGPT |
 |---------|----------|---------|--------|-----------|---------|
 | Config-first (SOUL.md) | ✅ | ❌ | ❌ | ❌ | ❌ |
@@ -456,12 +459,40 @@ How OpenClaw compares to other AI agent frameworks:
 | Self-hosted / local | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Heartbeat monitoring | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Works with Ollama (free) | ✅ | ✅ | ✅ | ✅ | ❌ |
-| Production-ready templates | **177** | 0 | 5 | 0 | 3 |
+| Production-ready templates | **187** | 0 | 5 | 0 | 3 |
 | One-command deploy | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Agent-to-agent communication | ✅ | ❌ | ✅ | ✅ | ✅ |
 | Setup time | ~5 min | ~30 min | ~20 min | ~45 min | ~30 min |
 
-**TL;DR:** OpenClaw is config-first. Write a SOUL.md, run a command, your agent is live. No Python, no chains, no graphs.
+### vs Lightweight Alternatives
+
+| Feature | OpenClaw | ZeroClaw | PicoClaw | NanoClaw | memU |
+|---------|----------|----------|----------|----------|------|
+| Language | Node.js | Rust | Go | Python | Python |
+| Binary size | ~150MB | ~5MB | ~8MB | ~4K LOC | ~50MB |
+| Min RAM | 512MB | 32MB | 64MB | 128MB | 256MB |
+| Multi-agent | ✅ AGENTS.md | ❌ | ❌ | ❌ | ❌ |
+| Skills/plugins | ✅ 13K+ | ❌ | ❌ | ❌ | ❌ |
+| Messaging channels | ✅ 25+ | 3 | 2 | 1 | 5 |
+| Long-term memory | Basic | ❌ | ❌ | ❌ | ✅ Knowledge graph |
+| MCP support | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Production templates | **187** | 0 | 0 | 0 | 0 |
+| Best for | Full agent teams | Edge/IoT | Single-purpose bots | Minimal setups | Personal assistants |
+
+### vs Hosted/Enterprise Solutions
+
+| Feature | OpenClaw | Claude Code Channels | NemoClaw (NVIDIA) | OpenFang |
+|---------|----------|---------------------|-------------------|----------|
+| Open source | ✅ MIT | ❌ Proprietary | ✅ Apache 2.0 | ✅ MIT |
+| Self-hosted | ✅ | ❌ Cloud only | ✅ | ✅ |
+| Setup | Config file | API key | Docker + config | Rust binary |
+| Multi-agent | ✅ | ❌ | ✅ via OpenClaw | ✅ 7 "Hands" |
+| Security model | User-managed | Anthropic-managed | Kernel sandbox | Process isolation |
+| Messaging | ✅ 25+ channels | Telegram, Discord | Via OpenClaw | 3 channels |
+| Cost | Free + API fees | Claude subscription | Free + API fees | Free + API fees |
+| Best for | Full control | Non-technical users | Enterprise security | Agent OS power users |
+
+**TL;DR:** OpenClaw is config-first. Write a SOUL.md, run a command, your agent is live. No Python, no chains, no graphs. Lightweight alternatives trade features for smaller footprints. Enterprise solutions add security layers.
 
 ---
 
@@ -480,7 +511,7 @@ Your CrewClaw package includes:
 └── README.md                     # Setup instructions
 ```
 
-Pick any of the 177 templates above, or create a custom agent from scratch.
+Pick any of the 187 templates above, or create a custom agent from scratch.
 
 **[Create your agent →](https://crewclaw.com/create-agent?utm_source=github&utm_medium=readme&utm_campaign=bottom_cta)**
 
@@ -540,9 +571,30 @@ Utilities and helpers for working with OpenClaw.
 | Tool | Description |
 |------|-------------|
 | [openclaw CLI](https://crewclaw.com/blog/openclaw-cli-commands-reference) | Official CLI - complete command reference |
-| [agents.json](agents.json) | Machine-readable index of all 100 agent templates |
+| [agents.json](agents.json) | Machine-readable index of all 187 agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+
+---
+
+## Security
+
+OpenClaw agents run on your hardware with access to your files and services. Follow these best practices:
+
+| Risk | Mitigation |
+|------|------------|
+| Exposed gateway | Bind to `localhost` only. Use SSH tunneling for remote access. Never expose port 18789 to the internet. |
+| API key leaks | Store keys in `.env` files. Add `.env` to `.gitignore`. Rotate keys regularly. |
+| Malicious skills | Only install skills from ClawHub verified publishers. Review SKILL.md before installing. |
+| Prompt injection | Set strict `## Rules` in SOUL.md. Limit file system access. Disable shell commands for untrusted inputs. |
+| Unattended agents | Use HEARTBEAT.md with scope limits. Set budget caps. Enable logging for all actions. |
+
+**Recent security resources:**
+
+- [OpenClaw Security Guide](https://crewclaw.com/blog/openclaw-security-guide) - Hardening your setup
+- [OpenClaw Security Risks 2026](https://crewclaw.com/blog/openclaw-security-risks-2026) - Known vulnerabilities and fixes
+- [NemoClaw (NVIDIA GTC 2026)](https://crewclaw.com/blog/nvidia-gtc-2026-openclaw-nemoclaw) - Enterprise security wrapper
+- [Official Security Docs](https://docs.openclaw.ai/gateway/security) - Gateway security configuration
 
 ---
 
@@ -552,9 +604,12 @@ Learn how to build and deploy agents.
 
 ### Getting Started
 
+- [How to Use OpenClaw: Beginner Guide](https://crewclaw.com/blog/how-to-use-openclaw-guide) - Installation to first agent in 5 minutes
 - [What is OpenClaw?](https://crewclaw.com/blog/what-is-openclaw-ai-agent-framework) - Complete guide to the framework
 - [Create Your First Agent](https://crewclaw.com/blog/how-to-create-ai-agent-openclaw) - No code required
 - [OpenClaw Setup Guide 2026](https://crewclaw.com/blog/openclaw-setup-guide-2026) - Install, configure, run
+- [System Requirements](https://crewclaw.com/blog/openclaw-system-requirements-2026) - Hardware, GPU, VPS, Docker specs
+- [Best Models for OpenClaw](https://crewclaw.com/blog/best-models-for-openclaw-2026) - 10 LLMs compared on cost, speed, tool calling
 - [SOUL.md Templates](https://crewclaw.com/blog/soul-md-examples-templates) - 10 ready-to-use examples
 
 ### Multi-Agent & Orchestration
@@ -563,18 +618,34 @@ Learn how to build and deploy agents.
 - [Agent-to-Agent Communication](https://crewclaw.com/blog/openclaw-agent-to-agent-communication) - How agents collaborate
 - [Build an AI Team](https://crewclaw.com/blog/build-ai-team-workflows) - Workflows that run autonomously
 
+### Use Cases
+
+- [What Can OpenClaw Do?](https://crewclaw.com/blog/what-can-openclaw-do) - 12 real use cases with configs
+- [OpenClaw for Business](https://crewclaw.com/blog/openclaw-for-business-use-cases) - 25 use cases across 8 categories
+- [Content Creation Guide](https://crewclaw.com/blog/openclaw-content-creation-guide) - Blog, social media, video automation
+- [Lead Generation Guide](https://crewclaw.com/blog/openclaw-lead-generation-guide) - Reddit, Twitter, sales pipeline
+- [Email Automation](https://crewclaw.com/blog/openclaw-email-automation-guide) - Inbox triage, auto-reply, follow-ups
+- [Home Assistant Integration](https://crewclaw.com/blog/openclaw-home-assistant-integration) - Smart home control
+
 ### Integrations & Automation
 
 - [Slack & Telegram Integration](https://crewclaw.com/blog/openclaw-slack-telegram-integration) - Connect to messaging channels
 - [Run with Ollama](https://crewclaw.com/blog/openclaw-ollama-local-agents) - Free local AI agents
 - [Automation Guide](https://crewclaw.com/blog/openclaw-automation-guide) - Build 24/7 workflows
 - [CLI Commands Reference](https://crewclaw.com/blog/openclaw-cli-commands-reference) - Complete cheat sheet
+- [Google Workspace Integration](https://crewclaw.com/blog/openclaw-google-workspace-integration) - Gmail, Docs, Drive, Calendar
 
 ### Comparisons
 
+- [OpenClaw vs CrewAI](https://crewclaw.com/blog/openclaw-vs-crewai) - Which is better?
+- [OpenClaw vs AutoGen](https://crewclaw.com/blog/openclaw-vs-autogen) - Microsoft's multi-agent framework
 - [OpenClaw vs LangChain](https://crewclaw.com/blog/openclaw-vs-langchain) - Framework comparison
 - [OpenClaw vs AutoGPT](https://crewclaw.com/blog/openclaw-vs-autogpt) - Key differences
-- [OpenClaw vs CrewAI](https://crewclaw.com/blog/openclaw-vs-crewai) - Which is better?
+- [OpenClaw vs ZeroClaw](https://crewclaw.com/blog/openclaw-vs-zeroclaw) - Rust lightweight alternative
+- [OpenClaw vs OpenFang](https://crewclaw.com/blog/openclaw-vs-openfang) - Agent OS with 7 Hands
+- [OpenClaw vs memU](https://crewclaw.com/blog/openclaw-vs-memu) - Long-term memory AI
+- [PicoClaw vs OpenClaw](https://crewclaw.com/blog/picoclaw-vs-openclaw) - Ultra-minimal alternative
+- [OpenClaw GitHub Repository Guide](https://crewclaw.com/blog/openclaw-ai-agent-github-guide) - The 250K-star repo explained
 
 ---
 
