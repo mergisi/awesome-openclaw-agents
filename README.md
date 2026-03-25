@@ -566,6 +566,7 @@ Connect your agents to external services.
 
 ## Tools
 
+- [SkillFlow](https://github.com/rafsilva85/skillflow-mcp-server) - Open marketplace for AI agent skills and MCP servers. Browse, discover, and install 500+ skills.
 Utilities and helpers for working with OpenClaw.
 
 | Tool | Description |
