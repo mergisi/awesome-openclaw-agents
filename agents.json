@@ -1,5 +1,5 @@
 {
-  "total": 184,
+  "total": 185,
   "agents": [
     {
       "id": "churn-predictor",
@@ -119,6 +119,14 @@
       "name": "video-scripter",
       "role": "",
       "path": "agents/creative/video-scripter/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "openclaw-persona-forge",
+      "category": "creative",
+      "name": "OpenClaw Persona Forge",
+      "role": "Lobster Persona Generator with 8M Gacha Combinations",
+      "path": "agents/creative/openclaw-persona-forge/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
@@ -703,6 +711,14 @@
       "name": "metrics",
       "role": "",
       "path": "agents/productivity/metrics/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "openclaw-user-profiler",
+      "category": "productivity",
+      "name": "OpenClaw User Profiler",
+      "role": "User Profile Builder & Skill Recommender for 42 Roles",
+      "path": "agents/productivity/openclaw-user-profiler/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
