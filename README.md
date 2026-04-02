@@ -690,6 +690,7 @@ Want to request an agent instead? Use the [Agent Request](https://github.com/mer
 - [🦞 CrewClaw](https://crewclaw.com) - Deploy AI agents with zero config. No Docker, no terminal.
 - [OpenClaw](https://github.com/openclaw) - Official OpenClaw repository
 - [Anthropic MCP](https://github.com/anthropics/mcp) - Model Context Protocol
+- [skill-taxonomy](https://github.com/SeeleAI/skill-taxonomy) - Analyze and visualize OpenClaw skill systems to find routing conflicts, duplicate capabilities, and missing abstractions.
 
 ---
 
