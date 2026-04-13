@@ -27,6 +27,10 @@ description: When to trigger this skill
 What the skill should do...
 ```
 
-## Skills coming soon
+## Skills
 
-This folder is a placeholder for Claude Code skills. Add yours via PR.
+| Skill | Description | Source |
+|-------|-------------|--------|
+| [mmx-cli](https://github.com/MiniMax-AI/cli) | Generate text, images, video, speech, and music via MiniMax AI | MiniMax-AI/cli |
+
+Add yours via PR.

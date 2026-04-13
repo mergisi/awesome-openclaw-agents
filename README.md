@@ -447,6 +447,8 @@ Skills for Gemma 4 running on iPhone / Android via [Google AI Edge Gallery](http
 ### [Claude](./skills/claude/) — Claude Code
 Skills for [Claude Code](https://claude.com/claude-code), invoked via slash commands or automatic triggers.
 
+- **[mmx-cli](https://github.com/MiniMax-AI/cli)** — Generate text, images, video, speech, and music via MiniMax AI
+
 **[Browse all skills →](./skills/)**
 
 ---
