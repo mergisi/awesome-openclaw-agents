@@ -691,6 +691,7 @@ Learn how to build and deploy agents.
 - [OpenClaw vs memU](https://crewclaw.com/blog/openclaw-vs-memu) - Long-term memory AI
 - [PicoClaw vs OpenClaw](https://crewclaw.com/blog/picoclaw-vs-openclaw) - Ultra-minimal alternative
 - [OpenClaw GitHub Repository Guide](https://crewclaw.com/blog/openclaw-ai-agent-github-guide) - The 250K-star repo explained
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 ---
 
