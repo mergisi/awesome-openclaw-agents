@@ -334,6 +334,7 @@ Growing your product, retaining your users.
 | [🔮 Churn Prevention](agents/saas/churn-prevention/) | Proactive churn prevention, health scoring | When users are churning and you don't know why | [View](agents/saas/churn-prevention/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [📊 Usage Analytics](agents/saas/usage-analytics/) | Product usage, feature adoption tracking | When you need to understand how users use your product | [View](agents/saas/usage-analytics/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=data-analyst) |
 | [📝 Release Notes](agents/saas/release-notes/) | Auto release notes from git and PRs | When writing release notes is a chore nobody wants to do | [View](agents/saas/release-notes/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=technical-writer) |
+| [📋 Product Manager Skills](https://github.com/Digidai/product-manager-skills) | Senior PM agent — 6 knowledge domains, 30+ frameworks, 32 SaaS metrics, anti-pattern detection | When you need product strategy, metrics analysis, or roadmap planning | [View](https://github.com/Digidai/product-manager-skills) | [GitHub →](https://github.com/Digidai/product-manager-skills) |
 
 ### 🏡 Real Estate
 
