@@ -1,5 +1,5 @@
 {
-  "total": 199,
+  "total": 200,
   "agents": [
     {
       "id": "churn-predictor",
@@ -567,6 +567,14 @@
       "name": "echo",
       "role": "",
       "path": "agents/marketing/echo/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "faro-linkedin",
+      "category": "marketing",
+      "name": "Faro - LinkedIn Brand Strategist",
+      "role": "LinkedIn brand positioning and B2B social-selling agent for founders",
+      "path": "agents/marketing/faro-linkedin/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
