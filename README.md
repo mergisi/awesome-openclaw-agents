@@ -209,6 +209,7 @@ Making sense of the numbers.
 | [📈 Revenue Analyst](agents/finance/revenue-analyst/) | MRR analysis, churn, revenue forecasts | When you want automated revenue reports and forecasting | [View](agents/finance/revenue-analyst/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 | [🏦 Tax Preparer](agents/finance/tax-preparer/) | Receipt organization, deduction calculation | When tax season is approaching and you need to get organized | [View](agents/finance/tax-preparer/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 | [📉 Trading Bot](agents/finance/trading-bot/) | Portfolio tracking, sentiment, price alerts | When you want automated market monitoring and price alerts | [View](agents/finance/trading-bot/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
+| [🏦 CFO Analyst](agents/finance/cfo-analyst/) | Board-ready financial analysis with multi-agent consensus | When you need CFO-grade forecasts and investment memos | [View](agents/finance/cfo-analyst/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 | [🔍 Fraud Detector](agents/finance/fraud-detector/) | Transaction anomaly detection, fraud alerts | When you need real-time fraud monitoring on transactions | [View](agents/finance/fraud-detector/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 | [📊 Financial Forecaster](agents/finance/financial-forecaster/) | Revenue/expense forecasts from historical data | When you need data-driven financial projections | [View](agents/finance/financial-forecaster/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 | [⚖️ Portfolio Rebalancer](agents/finance/portfolio-rebalancer/) | Allocation drift analysis, rebalancing trades | When your investment portfolio needs periodic rebalancing | [View](agents/finance/portfolio-rebalancer/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
@@ -390,12 +391,14 @@ Optimizing logistics and supplier operations.
 | [🚚 Route Optimizer](agents/supply-chain/route-optimizer/) | Delivery routes, traffic, capacity | When you need optimized delivery planning | [View](agents/supply-chain/route-optimizer/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 | [📈 Inventory Forecaster](agents/supply-chain/inventory-forecaster/) | Demand prediction, reorder points | When you need to prevent stockouts with smart forecasting | [View](agents/supply-chain/inventory-forecaster/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 | [⭐ Vendor Evaluator](agents/supply-chain/vendor-evaluator/) | Supplier scoring, quality tracking | When you need data-driven supplier selection and ranking | [View](agents/supply-chain/vendor-evaluator/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
+| [🧭 Critical Minerals Analyst](agents/supply-chain/critical-minerals-analyst/) | Geopolitical risk, trade flows, price signals | When you need supply chain intelligence for strategic minerals | [View](agents/supply-chain/critical-minerals-analyst/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 
 ### ✅ Compliance `NEW`
 
 Staying ahead of regulations.
 
 | Agent | Specialty | When to Use | SOUL.md | Deploy |
+| [📋 SEC Research Analyst](agents/compliance/sec-research-analyst/) | SEC filings, earnings analysis, multi-agent research | When you need institutional-quality company research with CHP audit | [View](agents/compliance/sec-research-analyst/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 |-------|-----------|-------------|---------|--------|
 | [🔒 GDPR Auditor](agents/compliance/gdpr-auditor/) | GDPR gap analysis, remediation plans | When you need to audit systems for data privacy compliance | [View](agents/compliance/gdpr-auditor/SOUL.md) | [Deploy →](https://crewclaw.com/agents/personal-assistant) |
 | [📋 SOC2 Preparer](agents/compliance/soc2-preparer/) | Evidence collection, audit readiness | When you're preparing for SOC 2 certification | [View](agents/compliance/soc2-preparer/SOUL.md) | [Deploy →](https://crewclaw.com/agents/personal-assistant) |
@@ -428,6 +431,7 @@ Set it and forget it. Agents that work while you sleep.
 | Agent | Specialty | When to Use | SOUL.md | Deploy |
 |-------|-----------|-------------|---------|--------|
 | [🤝 Negotiation Agent](agents/automation/negotiation-agent/) | Bill negotiation, deal closing | When you want AI to negotiate your bills and contracts | [View](agents/automation/negotiation-agent/SOUL.md) | [Deploy →](https://crewclaw.com/agents/personal-assistant) |
+| [🧠 Swarm Coordinator](agents/automation/swarm-coordinator/) | Multi-agent orchestration via stigmergy + CHP + PARL | When you need to coordinate specialized agents for complex tasks | [View](agents/automation/swarm-coordinator/SOUL.md) | [Deploy →](https://crewclaw.com/agents/data-analyst) |
 | [📄 Job Applicant](agents/automation/job-applicant/) | Mass applications, resume customization | When you want to apply to 500+ jobs while you sleep | [View](agents/automation/job-applicant/SOUL.md) | [Deploy →](https://crewclaw.com/agents/personal-assistant) |
 | [☀️ Morning Briefing](agents/automation/morning-briefing/) | Email, calendar, news daily rollup | When you want a personalized daily briefing ready at 7AM | [View](agents/automation/morning-briefing/SOUL.md) | [Deploy →](https://crewclaw.com/agents/personal-assistant) |
 | [✈️ Flight Scraper](agents/automation/flight-scraper/) | Flight deals, price drop alerts | When you want the cheapest flights found automatically | [View](agents/automation/flight-scraper/SOUL.md) | [Deploy →](https://crewclaw.com/agents/personal-assistant) |
