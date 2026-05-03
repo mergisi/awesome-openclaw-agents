@@ -634,6 +634,10 @@ Connect your agents to external services.
 - **GitHub Actions** - CI/CD integration
 - **Cron / pm2 / systemd** - Always-on agent scheduling
 
+### Observability
+
+- **[Synaptic](https://github.com/amitbidlan/zistica-synaptic)** - Local-first AI observability. Records every LLM call, tool call, and decision; runs in one Docker container; no account, no cloud. Plug into OpenClaw's OTel pipeline via [`@synaptic/openclaw`](https://github.com/amitbidlan/zistica-synaptic/tree/main/packages/integrations/openclaw); browse traces at `localhost:3000`.
+
 ---
 
 ## Tools
