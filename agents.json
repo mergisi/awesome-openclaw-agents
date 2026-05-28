@@ -1,5 +1,5 @@
 {
-  "total": 199,
+  "total": 202,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1591,6 +1591,30 @@
       "name": "Customer Support",
       "role": "Customer Support Agent (Ollama/Gemma4:e4b)",
       "path": "configs/ollama/customer-support/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "sdr-lead-qualifier",
+      "category": "business",
+      "name": "SDR Lead Qualifier",
+      "role": "B2B Inbound Lead Qualification Agent",
+      "path": "agents/business/sdr-lead-qualifier/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "social-content-manager",
+      "category": "marketing",
+      "name": "Social Content Manager",
+      "role": "Platform-Native Social Content Drafting Agent",
+      "path": "agents/marketing/social-content-manager/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "hr-onboarding",
+      "category": "hr",
+      "name": "HR Onboarding Agent",
+      "role": "Employee Onboarding Agent",
+      "path": "agents/hr/hr-onboarding/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     }
   ]
