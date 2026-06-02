@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/mergisi-awesome-openclaw-agents-badge.png)](https://mseep.ai/app/mergisi-awesome-openclaw-agents)
+
 # 🦞 Awesome OpenClaw Agents
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
