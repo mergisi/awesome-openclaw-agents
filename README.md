@@ -646,6 +646,7 @@ Utilities and helpers for working with OpenClaw.
 | [agents.json](agents.json) | Machine-readable index of all 187 agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+| [ProxyClaw](https://github.com/Iploop/proxyclaw) | Residential proxy skill — 2M+ IPs, 195+ countries, anti-bot bypass. `clawhub install proxyclaw` |
 
 ---
 
