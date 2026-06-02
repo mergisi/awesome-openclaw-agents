@@ -689,6 +689,7 @@ Learn how to build and deploy agents.
 - [Multi-Agent Setup Guide](https://crewclaw.com/blog/openclaw-multi-agent-setup-guide) - Run multiple agents together
 - [Agent-to-Agent Communication](https://crewclaw.com/blog/openclaw-agent-to-agent-communication) - How agents collaborate
 - [Build an AI Team](https://crewclaw.com/blog/build-ai-team-workflows) - Workflows that run autonomously
+- [OpenClaw Course - Build Your AI Employee System](https://openclawapp.netlify.app/) - Complete course teaching consultants to build AI employee systems with multi-agent orchestration
 
 ### Use Cases
 
