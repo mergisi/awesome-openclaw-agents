@@ -421,6 +421,15 @@ Keeping customers happy and growing.
 | [📊 NPS Followup](agents/customer-success/nps-followup/) | Detractor recovery, personalized outreach | When NPS detractors need immediate attention | [View](agents/customer-success/nps-followup/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=customer-support) |
 | [🎯 Onboarding Guide](agents/customer-success/onboarding-guide/) | Product setup, contextual tips | When new users need guided product onboarding | [View](agents/customer-success/onboarding-guide/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=customer-support) |
 
+
+### 🔗 Communication & Orchestration `NEW`
+
+Connecting agents and managing multi-agent workflows.
+
+| Agent | Specialty | When to Use | SOUL.md | Deploy |
+|-------|-----------|-------------|---------|--------|
+| [🔗 OCP Protocol Engineer](agents/communication/ocp-protocol/) | ACP protocol design, multi-agent orchestration, REST API | When you need standardized communication between AI agents from different frameworks | [View](agents/communication/ocp-protocol/SOUL.md) | [Deploy →](https://github.com/baiym0822-oss/ocp-spec) |
+
 ### 🔄 Automation `NEW`
 
 Set it and forget it. Agents that work while you sleep.
