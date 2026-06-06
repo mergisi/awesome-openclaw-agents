@@ -614,6 +614,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
 | mcp-linear | Linear issue tracking |
+| [ToolRouter MCP](https://toolrouter.com) | Tool access layer for agents — one gateway to 150+ tools (SEO, screenshots, search, image generation, video, security) through one MCP endpoint. One API key replaces managing dozens of provider accounts. `npx -y toolrouter-mcp` |
 
 ---
 
