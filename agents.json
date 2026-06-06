@@ -146,6 +146,14 @@
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
+      "id": "knowledge-curator",
+      "category": "data",
+      "name": "Knowledge Curator",
+      "role": "Research and Knowledge Base Agent powered by AgentBase MCP",
+      "path": "agents/data/knowledge-curator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
       "id": "report-generator",
       "category": "data",
       "name": "Report Generator",

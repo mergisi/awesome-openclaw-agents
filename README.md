@@ -614,6 +614,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
 | mcp-linear | Linear issue tracking |
+| [AgentBase](https://agentbase.tools) | Shared knowledge base for AI agents — store, search, and discover knowledge across agents |
 
 ---
 
