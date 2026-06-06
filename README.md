@@ -604,6 +604,7 @@ Model Context Protocol servers to extend agent capabilities.
 
 | Server | Description |
 |--------|-------------|
+| [Useful AI MCP](https://github.com/uAI-solana/useful-ai-mcp) | 200+ shared utility tools. Dispatch tasks in plain English, get structured output. No auth. `https://api.usefulai.fun/mcp` |
 | mcp-notion | Notion integration |
 | mcp-google-calendar | Google Calendar access |
 | mcp-github | GitHub operations |
