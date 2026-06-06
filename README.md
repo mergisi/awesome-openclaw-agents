@@ -475,6 +475,7 @@ Skills for [Claude Code](https://claude.com/claude-code), invoked via slash comm
 - **[model-cost-compare](./skills/claude/model-cost-compare/)** — Estimate token cost across Opus, Sonnet, GLM-5.1, Minimax M2.7, local Gemma for a task
 - **[excalidraw-architecture](./skills/claude/excalidraw-architecture/)** — Generate/update an Excalidraw architecture diagram from the current codebase
 - **[cost-optimizer](./skills/claude/cost-optimizer/)** — Audit a project's Claude Code usage for cost wins (bloated memory, cache misses, over-pinned Opus)
+- **[unslop](https://github.com/MohamedAbdallah-14/unslop)** — Remove named AI writing tells from any text: tricolons, em-dash pileups, hedging stacks, sycophancy openers, banned vocab. Lint-only mode audits without rewriting. Five intensity levels.
 
 **[Browse all skills →](./skills/)**
 
@@ -614,6 +615,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
 | mcp-linear | Linear issue tracking |
+| [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) | MCP server that generates production-ready visual assets (app icons, favicons, OG images, logos) by routing across 30+ image generation models. Zero API key for first run via Pollinations, Stable Horde, HuggingFace. |
 
 ---
 
