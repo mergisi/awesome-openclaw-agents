@@ -1,4 +1,4 @@
-# 🦞 Awesome OpenClaw Agents
+# 🦞 Awesome OpenClaw Agents - ClawsAhoy!
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
