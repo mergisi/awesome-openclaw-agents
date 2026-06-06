@@ -646,6 +646,7 @@ Utilities and helpers for working with OpenClaw.
 | [agents.json](agents.json) | Machine-readable index of all 187 agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+| [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) | Pre-action authorization and blocked-pattern checks for OpenClaw agent tool calls |
 
 ---
 
