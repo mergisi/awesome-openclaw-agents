@@ -55,7 +55,7 @@ Pick a template, see what it does, get a Dockerfile + docker-compose + bot + REA
 - [Security](#security)
 - [Tutorials & Guides](#tutorials--guides)
 - [Cost Optimization & Multi-Provider](#-cost-optimization--multi-provider)
-- [Model Configs](#model-configs) `NEW` — drop-in GLM-5.1, Minimax M2.7, GPT-5.4, advisor hybrid
+- [Model Configs](#model-configs) `NEW` — drop-in GLM-5.1, Minimax M3, GPT-5.4, advisor hybrid
 - [Memory Wiki](#memory-wiki) `NEW` — Karpathy-style pre-compiled agent memory
 - [Troubleshooting](TROUBLESHOOTING.md) `NEW` — known issues, regressions, recovery
 - [Submit Your Agent](#submit-your-agent)
@@ -472,7 +472,7 @@ Skills for [Claude Code](https://claude.com/claude-code), invoked via slash comm
 
 - **[git-commit-writer](./skills/claude/git-commit-writer/)** — Draft opinionated commit messages from staged changes, matching repo conventions
 - **[openclaw-debugger](./skills/claude/openclaw-debugger/)** — 6-step diagnosis checklist when an OpenClaw agent is dead or misbehaving
-- **[model-cost-compare](./skills/claude/model-cost-compare/)** — Estimate token cost across Opus, Sonnet, GLM-5.1, Minimax M2.7, local Gemma for a task
+- **[model-cost-compare](./skills/claude/model-cost-compare/)** — Estimate token cost across Opus, Sonnet, GLM-5.1, Minimax M3, local Gemma for a task
 - **[excalidraw-architecture](./skills/claude/excalidraw-architecture/)** — Generate/update an Excalidraw architecture diagram from the current codebase
 - **[cost-optimizer](./skills/claude/cost-optimizer/)** — Audit a project's Claude Code usage for cost wins (bloated memory, cache misses, over-pinned Opus)
 
@@ -780,7 +780,7 @@ Drop-in OpenClaw configs for migrating off Claude. Each bundle contains a `READM
 | Bundle | When to use | Notes |
 |--------|-------------|-------|
 | [configs/glm-5.1](configs/glm-5.1/) | Community-reported closest Opus 4.6 alternative | Strong tool-calling, stricter JSON mode |
-| [configs/minimax-m2.7](configs/minimax-m2.7/) | Agentic SWE workloads | 229B params · SWE-Pro 56.22% · check license |
+| [configs/minimax-m2.7](configs/minimax-m2.7/) | Agentic SWE workloads | MiniMax M3 default · M2.7 (229B, SWE-Pro 56.22%) supported · check license |
 | [configs/gpt-5.4](configs/gpt-5.4/) | Already on ChatGPT/OpenAI billing | Use `thinking=high + fastmode=true` |
 | [configs/advisor-hybrid](configs/advisor-hybrid/) | High-complexity + cost-sensitive | Opus 4.6 advises, cheap model executes |
 | [configs/ollama](configs/ollama/) | Fully local, zero API cost | Gemma 4 / Qwen 3 / DeepSeek |
