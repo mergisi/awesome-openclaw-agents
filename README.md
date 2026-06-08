@@ -646,6 +646,7 @@ Utilities and helpers for working with OpenClaw.
 | [agents.json](agents.json) | Machine-readable index of all 187 agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+| [clawcall](https://github.com/CODEANDTRUST/clawcall) | Give your OpenClaw agent inbound phone calls (Twilio ↔ gateway voice bridge); agent tools work mid-call. |
 
 ---
 
