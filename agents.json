@@ -1,5 +1,5 @@
 {
-  "total": 199,
+  "total": 200,
   "agents": [
     {
       "id": "churn-predictor",
@@ -167,6 +167,14 @@
       "name": "api-tester",
       "role": "",
       "path": "agents/development/api-tester/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "ariadne-loop-steward",
+      "category": "development",
+      "name": "Ariadne Loop Steward",
+      "role": "Verifier-driven Loop Engineering Agent",
+      "path": "agents/development/ariadne-loop-steward/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
