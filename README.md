@@ -1,3 +1,15 @@
+
+## Finance & CFO
+
+### [icohangar-ops/meshcfo](https://github.com/icohangar-ops/meshcfo)
+Multi-Agent CFO Operating System. Cognitive Mesh + Consensus Hardening Protocol for forecasts, investment cases, and board outputs.
+
+### [icohangar-ops/closedloop](https://github.com/icohangar-ops/closedloop)
+Closed-loop month-end review. 4-agent pipeline with LangGraph + Vertex AI + Notion RAG.
+
+### [icohangar-ops/strata](https://github.com/icohangar-ops/strata)
+CFO maturity assessment. Dual-axis scoring + 12 chain-driven deliverables with rubric-graded AI authoring.
+
 # 🦞 Awesome OpenClaw Agents
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
