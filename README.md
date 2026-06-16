@@ -604,6 +604,7 @@ Model Context Protocol servers to extend agent capabilities.
 
 | Server | Description |
 |--------|-------------|
+| [@keyid/agent-kit](https://github.com/KeyID-AI/KeyID) | Agent email, SMS, OTP/TOTP, signup sessions. Free for first 1,000 accounts (vs paid alternatives like AgentMail). `npx -y @keyid/agent-kit` or remote at `https://keyid.ai/mcp` |
 | mcp-notion | Notion integration |
 | mcp-google-calendar | Google Calendar access |
 | mcp-github | GitHub operations |
