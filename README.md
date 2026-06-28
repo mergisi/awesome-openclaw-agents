@@ -646,6 +646,7 @@ Utilities and helpers for working with OpenClaw.
 | [agents.json](agents.json) | Machine-readable index of all 187 agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+| [Skill Hub](https://skill.442595.xyz/) | Multi-platform AI Agent Skills navigator — 577+ skills, 104 OpenClaw skills. Browse by function category. [GitHub](https://github.com/rdone4425/skill) |
 
 ---
 
