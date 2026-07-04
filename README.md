@@ -420,6 +420,7 @@ Keeping customers happy and growing.
 |-------|-----------|-------------|---------|--------|
 | [📊 NPS Followup](agents/customer-success/nps-followup/) | Detractor recovery, personalized outreach | When NPS detractors need immediate attention | [View](agents/customer-success/nps-followup/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=customer-support) |
 | [🎯 Onboarding Guide](agents/customer-success/onboarding-guide/) | Product setup, contextual tips | When new users need guided product onboarding | [View](agents/customer-success/onboarding-guide/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=customer-support) |
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — 5 Claude Code / agent skills + 4 Personal Context Artifact templates. Context amnesia solved: one-command install, MIT licensed.
 
 ### 🔄 Automation `NEW`
 
