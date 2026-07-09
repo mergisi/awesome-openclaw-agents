@@ -1,6 +1,6 @@
 ---
 name: model-cost-compare
-description: Trigger when the user asks which model to use, wants to compare model costs, says "what's cheapest for this task", "should I use Opus or Sonnet", "can a smaller model handle this", or "/model-cost-compare". Estimates token cost across Opus 4.6, Sonnet 4.6, GLM-5.1, Minimax M2.7, and local Gemma 4, then recommends the cheapest model capable of the task.
+description: Trigger when the user asks which model to use, wants to compare model costs, says "what's cheapest for this task", "should I use Opus or Sonnet", "can a smaller model handle this", or "/model-cost-compare". Estimates token cost across Opus 4.6, Sonnet 4.6, GLM-5.1, MiniMax-M3, and local Gemma 4, then recommends the cheapest model capable of the task.
 ---
 
 # Model Cost Compare
@@ -23,7 +23,7 @@ Use these rough figures. They are **not** exact; confirm before quoting real num
 | Opus 4.6 (1M) | Frontier | ~$15 | ~$75 | 1M | Agentic, long-context, hard reasoning |
 | Sonnet 4.6 | Mid | ~$3 | ~$15 | 400k | Everyday coding, agents, drafting |
 | GLM-5.1 | Budget hosted | ~$0.60 | ~$2.20 | 256k | Cheap bulk work, decent reasoning |
-| Minimax M2.7 | Budget hosted | ~$0.40 | ~$1.80 | 256k | Very cheap, OK for templated output |
+| MiniMax-M3 | Budget hosted | ~$0.60 | ~$2.40 | 1M | Long-context hosted agent workflows |
 | Gemma 4 (local) | On device | $0 marginal | $0 marginal | 32k | Free but slow, weak at multi-step logic |
 
 > Indicative pricing as of OpenClaw 2026.4.11. Check the provider docs before billing decisions.
@@ -59,7 +59,7 @@ Total tokens: 4M input, 200k output
 | Model       | Input cost | Output cost | Total   | Capable? |
 |-------------|-----------:|------------:|--------:|---------:|
 | **Gemma 4** |     $0.00  |      $0.00  |  $0.00  |   yes    |
-| Minimax M2.7|     $1.60  |      $0.36  |  $1.96  |   yes    |
+| MiniMax-M3 |     $2.40  |      $0.48  |  $2.88  |   yes    |
 | GLM-5.1     |     $2.40  |      $0.44  |  $2.84  |   yes    |
 | Sonnet 4.6  |    $12.00  |      $3.00  | $15.00  |   yes    |
 | Opus 4.6    |    $60.00  |     $15.00  | $75.00  |   overkill |

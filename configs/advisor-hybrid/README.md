@@ -2,7 +2,7 @@
 
 A two-tier OpenClaw setup: an expensive **Advisor** model plans and reviews, a cheap **Executor** model runs the work. Based on Anthropic's official "Advisor Strategy" pattern, adapted for OpenClaw 2026.4.11.
 
-> Anthropic announced the Advisor Strategy for the Claude Platform on April 8, 2026. This config ports the same idea to local and self-hosted OpenClaw agents — use Opus 4.6 as the advisor, and Sonnet 4.6 / GLM-5.1 / Minimax M2.7 / local Gemma as the executor.
+> Anthropic announced the Advisor Strategy for the Claude Platform on April 8, 2026. This config ports the same idea to local and self-hosted OpenClaw agents — use Opus 4.6 as the advisor, and Sonnet 4.6 / GLM-5.1 / MiniMax-M3 / local Gemma as the executor.
 
 ## What is the Advisor Pattern?
 
@@ -96,7 +96,7 @@ Edit `~/.openclaw/agents/executor-hybrid/config.json`:
 }
 ```
 
-Swap `claude-sonnet-4-6` for `glm-5.1`, `minimax-m2.7`, or an Ollama model if you want a cheaper executor. The `openclaw_agent` tool is what lets the executor call the advisor.
+Swap `claude-sonnet-4-6` for `glm-5.1`, `MiniMax-M3`, or an Ollama model if you want a cheaper executor. The `openclaw_agent` tool is what lets the executor call the advisor.
 
 ### 3. Test the handshake
 
@@ -141,7 +141,7 @@ Assume the advisor is called **twice per task** on average (plan + review), ~2K 
 | **Daily** | | | **$225** |
 | **Monthly** | | | **~$6,750** |
 
-Roughly half the cost in this scenario. Swap the executor for GLM-5.1 or Minimax M2.7 and the executor line drops another order of magnitude — community reports on Reddit cite 60–80% total savings at that point.
+Roughly half the cost in this scenario. Swap the executor for GLM-5.1 or MiniMax-M3 and the executor line drops another order of magnitude — community reports on Reddit cite 60–80% total savings at that point.
 
 **Rates above are illustrative** — always check live pricing before budgeting real workloads.
 
