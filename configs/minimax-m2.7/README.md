@@ -29,15 +29,15 @@ openclaw provider add minimax \
   --base-url https://api.minimax.io/v1
 ```
 
-For Claude-style clients, use the Anthropic-compatible endpoint instead:
+For Claude-style clients, use the Anthropic-compatible base URL instead:
 
 ```bash
 openclaw provider add minimax-anthropic \
   --api-key $MINIMAX_API_KEY \
-  --base-url https://api.minimax.io/anthropic/v1
+  --base-url https://api.minimax.io/anthropic
 ```
 
-China-region endpoints are `https://api.minimaxi.com/v1` and `https://api.minimaxi.com/anthropic/v1`.
+China-region base URLs are `https://api.minimaxi.com/v1` and `https://api.minimaxi.com/anthropic`.
 
 3. Copy the agent bundle:
 
@@ -73,7 +73,7 @@ MiniMax also ships their own CLI called `mmx-cli` that wraps the same API with a
 
 ## Gotchas When Migrating From Claude
 
-1. **Endpoint shape matters.** Anthropic-compatible clients should use `/anthropic/v1`, not just `/anthropic`.
+1. **Endpoint shape matters.** Configure Anthropic-compatible clients with a base URL ending in `/anthropic`; the client appends `/v1/messages` for requests.
 
 2. **Long contexts still need budgets.** MiniMax-M3 supports a 1M-token context window, but long agent sessions can still run up cost. Set a max-steps cap in your OpenClaw config if you care about runaway spend.
 

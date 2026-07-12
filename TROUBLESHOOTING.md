@@ -33,7 +33,7 @@ Start here. Match the symptom, confirm the cause in the linked section, then app
 | `openclaw agent --status` returns `UNKNOWN` | Sessions file corruption | Delete `~/.openclaw/agents/<name>/sessions/sessions.json` | [Bot is dead](#bot-is-dead--unresponsive) |
 | Claude API key banned despite pay-as-you-go | Burst rate-limit tripped abuse detection | Contact Anthropic support, throttle retries | [Claude Opus/Sonnet](#claude-opussonnet) |
 | GPT 5.4 "feels lobotomized" in OpenClaw | Config issue, not the model | Set `thinking=high` + `fastmode=true` | [GPT 5.4](#gpt-54) |
-| MiniMax-M3 client returns 404 or auth errors | Wrong endpoint family | Use `/v1` for OpenAI-compatible clients or `/anthropic/v1` for Anthropic-compatible clients | [MiniMax-M3](#minimax-m3) |
+| MiniMax-M3 client returns 404 or auth errors | Wrong endpoint family | Use `/v1` for OpenAI-compatible clients or `/anthropic` for Anthropic-compatible clients | [MiniMax-M3](#minimax-m3) |
 | Memory files grow unbounded, latency creeps up | Context bloat | Compile memory, prune unused entries | [Context bloat](#context-bloat-from-memory-files) |
 | Opus token count climbs with no new tasks | Advisor executor runaway loop | Kill executor, check `last-plan.json` | [Advisor loop runaway](#advisor-loop-runaway) |
 | Bot process alive but all agents report `stale` | Gateway heartbeat thread died | Restart gateway (`openclaw gateway restart`) | [Heartbeat](#heartbeat-failure-modes) |
@@ -271,9 +271,9 @@ Generally stable. Known constraint: the OpenClaw provider adapter does not suppo
 
 ### MiniMax-M3
 
-**Endpoint mismatch:** MiniMax-M3 has both OpenAI-compatible and Anthropic-compatible endpoints. Use `https://api.minimax.io/v1` (or China-region `https://api.minimaxi.com/v1`) for OpenAI-style clients. Use `https://api.minimax.io/anthropic/v1` (or `https://api.minimaxi.com/anthropic/v1`) for Anthropic-style clients.
+**Endpoint mismatch:** MiniMax-M3 has both OpenAI-compatible and Anthropic-compatible endpoints. Use `https://api.minimax.io/v1` (or China-region `https://api.minimaxi.com/v1`) for OpenAI-style clients. Use `https://api.minimax.io/anthropic` (or `https://api.minimaxi.com/anthropic`) for Anthropic-style clients.
 
-A base URL ending in only `/anthropic` is incomplete and will fail for OpenClaw Anthropic-compatible clients.
+The configured base URL should end in `/anthropic`; OpenClaw's Anthropic client appends `/v1/messages` when sending a request.
 
 Fix: update `~/.openclaw/providers.json` or your provider registration to the matching endpoint family, then restart the gateway.
 
