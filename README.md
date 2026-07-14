@@ -614,6 +614,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
 | mcp-linear | Linear issue tracking |
+| [mcpqueen](https://github.com/mcpqueen/mcpqueen) | Graded MCP registry — search evidence-backed grades to find a working MCP for a task before you connect. Remote: `npx -y mcp-remote https://mcpqueen.com/mcp` |
 
 ---
 
