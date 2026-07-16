@@ -1,8 +1,8 @@
-# MiniMax M2.7 Agent Configs
+# MiniMax Agent Configs
 
-Drop-in OpenClaw configs for **MiniMax M2.7** — a 229B-parameter open-weight model that currently posts the highest agentic coding scores of any non-Anthropic model.
+Drop-in OpenClaw configs for **MiniMax M3** and **MiniMax M2.7**, with M3 as the default model for this bundle.
 
-## Why MiniMax M2.7
+## Why MiniMax models
 
 The short version: if you care about raw SWE-bench-style agentic performance and you are okay either paying MiniMax's hosted API or running 229B weights yourself, this is the strongest option on the board right now.
 
@@ -24,9 +24,14 @@ Those are the two benchmarks r/openclaw users keep citing in the migration megat
 
 ```bash
 openclaw provider add minimax \
-  --api-key $MINIMAX_API_KEY \
-  --base-url https://api.minimax.chat/v1
+  --api-key "$MINIMAX_API_KEY" \
+  --base-url "${MINIMAX_BASE_URL:-https://api.minimax.io/v1}"
 ```
+
+For clients that use the Anthropic-compatible Messages API, use
+`MINIMAX_ANTHROPIC_BASE_URL` from `.env.example` instead. The Anthropic base
+URL must end in `/anthropic`; do not add `/v1` to that value. The global and
+China endpoint pairs are listed below and should be selected together.
 
 3. Copy the agent bundle:
 
@@ -40,13 +45,46 @@ cp configs/minimax-m2.7/SOUL.md ~/.openclaw/agents/swe-agent/SOUL.md
 openclaw agent --agent swe-agent --message "Find and fix the failing tests in this repo"
 ```
 
+## Endpoints and protocols
+
+| Region | OpenAI-compatible base | Anthropic-compatible base | Documentation |
+|--------|-------------------------|---------------------------|---------------|
+| Global | `https://api.minimax.io/v1` | `https://api.minimax.io/anthropic` | [English API docs](https://platform.minimax.io/docs) |
+| China | `https://api.minimaxi.com/v1` | `https://api.minimaxi.com/anthropic` | [Chinese API docs](https://platform.minimaxi.com/docs) |
+
+Use the OpenAI-compatible base with the `openclaw provider add` example above.
+Use the Anthropic-compatible base only with a client that supports the
+Anthropic Messages API. Keep the configured Anthropic base unchanged so the
+client can append its request path.
+
 ## Model IDs
 
-| Model ID | Context | Good For |
-|----------|---------|----------|
-| `minimax-m2.7` | 256K | Default. Full weights. |
-| `minimax-m2.7-turbo` | 128K | Same weights, lower latency, slightly higher price. |
-| `minimax-m2.7-mini` | 128K | A distilled 34B version. Use for cheap routing. |
+| Model ID | Context | Input modalities | Thinking | Role |
+|----------|---------|------------------|----------|------|
+| `MiniMax-M3` | 1,000,000 | Text, image, video | Adaptive or disabled | Default |
+| `MiniMax-M2.7` | 204,800 | Text | Always on | Text-only alternative |
+
+### Existing repository aliases
+
+These aliases remain documented for compatibility with existing bundle users.
+Use the canonical IDs above for new configurations and verify legacy alias
+availability in the installed OpenClaw version.
+
+| Alias | Compatibility mapping |
+|-------|-----------------------|
+| `minimax-m2.7` | Legacy alias for `MiniMax-M2.7` |
+| `minimax-m2.7-turbo` | Existing repository alias |
+| `minimax-m2.7-mini` | Existing repository alias |
+
+### Pricing and model parameters
+
+| Model / service tier | Input | Output | Cache read | Cache write |
+|----------------------|-------|--------|------------|-------------|
+| `MiniMax-M3`, standard, up to 512K input | $0.30/M | $1.20/M | $0.06/M | - |
+| `MiniMax-M3`, standard, over 512K input | $0.60/M | $2.40/M | $0.12/M | - |
+| `MiniMax-M3`, priority, up to 512K input | $0.45/M | $1.80/M | $0.09/M | - |
+| `MiniMax-M3`, priority, over 512K input | $0.90/M | $3.60/M | $0.18/M | - |
+| `MiniMax-M2.7` | $0.30/M | $1.20/M | $0.06/M | $0.375/M |
 
 ## About `mmx-cli`
 
@@ -61,14 +99,6 @@ MiniMax also ships their own CLI called `mmx-cli` that wraps the same API with a
 - A commercial product self-hosting the weights → talk to a lawyer before you deploy
 
 This is not legal advice. This is "don't get surprised by a cease-and-desist." See the HuggingFace model card for the current license text.
-
-## Cost Comparison (April 2026)
-
-| Model | Input | Output | Notes |
-|-------|-------|--------|-------|
-| Claude Opus 4.6 | $15 | $75 | |
-| **MiniMax M2.7 (hosted)** | **$1.20** | **$4.80** | |
-| MiniMax M2.7 (self-hosted) | — | — | Your GPU bill. Break-even around 4-5M output tokens/day. |
 
 ## Gotchas When Migrating From Claude
 
