@@ -627,6 +627,7 @@ Connect your agents to external services.
 - **Slack** - Slack workspace connection (built-in to OpenClaw)
 - **Discord** - Discord server bot (built-in to OpenClaw)
 - **Email** - Email channel (built-in to OpenClaw)
+- **[WeChat (wechat-mac-rpa)](https://github.com/wq19901103wq/wechat-mac-rpa)** - WeChat automation via multimodal AI vision — no protocol hacking, operates through UI like a human. Supports memory system, digital twin, and smart home skills.
 
 ### Automation
 
