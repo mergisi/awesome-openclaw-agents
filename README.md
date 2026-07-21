@@ -676,6 +676,7 @@ Learn how to build and deploy agents.
 
 ### Getting Started
 
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source autonomous pentest engine (GPL-3.0): AD + Kubernetes + web, evidence trail on every finding, runs on local or hosted models.
 - [How to Use OpenClaw: Beginner Guide](https://crewclaw.com/blog/how-to-use-openclaw-guide) - Installation to first agent in 5 minutes
 - [What is OpenClaw?](https://crewclaw.com/blog/what-is-openclaw-ai-agent-framework) - Complete guide to the framework
 - [Create Your First Agent](https://crewclaw.com/blog/how-to-create-ai-agent-openclaw) - No code required
