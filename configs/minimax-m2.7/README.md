@@ -59,16 +59,13 @@ The included `SOUL.md` defaults to `minimax/MiniMax-M3`. To use the second model
 
 ## Pricing
 
-Prices below are in USD per million tokens. MiniMax-M3 pricing depends on the request's service tier and input length, so do not flatten it to one rate.
+Prices below are in USD per million tokens.
 
 ### MiniMax-M3
 
-| Service tier | Input length | Input | Output | Cache read |
-|--------------|--------------|------:|-------:|-----------:|
-| Standard | Up to 512,000 tokens | 0.30 | 1.20 | 0.06 |
-| Standard | More than 512,000 tokens | 0.60 | 2.40 | 0.12 |
-| Priority | Up to 512,000 tokens | 0.45 | 1.80 | 0.09 |
-| Priority | More than 512,000 tokens | 0.90 | 3.60 | 0.18 |
+| Input | Output | Cache read | Cache write |
+|------:|-------:|-----------:|-------------|
+| 0.60 | 2.40 | 0.12 | Not available |
 
 ### MiniMax-M2.7
 
