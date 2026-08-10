@@ -64,26 +64,11 @@ client can append its request path.
 | `MiniMax-M3` | 1,000,000 | Text, image, video | Adaptive or disabled | Default |
 | `MiniMax-M2.7` | 204,800 | Text | Always on | Text-only alternative |
 
-### Existing repository aliases
-
-These aliases remain documented for compatibility with existing bundle users.
-Use the canonical IDs above for new configurations and verify legacy alias
-availability in the installed OpenClaw version.
-
-| Alias | Compatibility mapping |
-|-------|-----------------------|
-| `minimax-m2.7` | Legacy alias for `MiniMax-M2.7` |
-| `minimax-m2.7-turbo` | Existing repository alias |
-| `minimax-m2.7-mini` | Existing repository alias |
-
 ### Pricing and model parameters
 
-| Model / service tier | Input | Output | Cache read | Cache write |
-|----------------------|-------|--------|------------|-------------|
-| `MiniMax-M3`, standard, up to 512K input | $0.30/M | $1.20/M | $0.06/M | - |
-| `MiniMax-M3`, standard, over 512K input | $0.60/M | $2.40/M | $0.12/M | - |
-| `MiniMax-M3`, priority, up to 512K input | $0.45/M | $1.80/M | $0.09/M | - |
-| `MiniMax-M3`, priority, over 512K input | $0.90/M | $3.60/M | $0.18/M | - |
+| Model | Input | Output | Cache read | Cache write |
+|-------|-------|--------|------------|-------------|
+| `MiniMax-M3` | $0.60/M | $2.40/M | $0.12/M | - |
 | `MiniMax-M2.7` | $0.30/M | $1.20/M | $0.06/M | $0.375/M |
 
 ## About `mmx-cli`
