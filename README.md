@@ -81,6 +81,8 @@ node bot.js
 
 ### 📋 Productivity
 
+- [Clickyy](https://github.com/jayamitkatariya/clickyyy) - Shake your cursor to summon an AI agent that sees your screen and clicks, types, drags, and acts for you on macOS. Open-source, MIT.
+
 Getting more done with less effort.
 
 | Agent | Specialty | When to Use | SOUL.md | Deploy |
