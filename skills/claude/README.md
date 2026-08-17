@@ -13,6 +13,7 @@ Tested against Claude Code on Opus 4.6 and Sonnet 4.6 (OpenClaw 2026.4.11 ecosys
 | [model-cost-compare](./model-cost-compare/) | Estimates token cost for a task across Opus 4.6, Sonnet 4.6, GLM-5.1, Minimax M2.7, and local Gemma 4, then recommends the cheapest capable model. | `cp -r skills/claude/model-cost-compare ~/.claude/skills/` |
 | [excalidraw-architecture](./excalidraw-architecture/) | Generates or updates `docs/architecture.excalidraw` by surveying the codebase's entry points and data stores. Inspired by @bibryam. | `cp -r skills/claude/excalidraw-architecture ~/.claude/skills/` |
 | [cost-optimizer](./cost-optimizer/) | Static audit of a project for the common Claude Code cost leaks — bloated CLAUDE.md, memory, cache-busting hooks, over-pinned Opus. | `cp -r skills/claude/cost-optimizer ~/.claude/skills/` |
+| [music-generate](./music-generate/) | Generates a background track, jingle, instrumental, song from lyrics, or cover of an existing recording — bundles the endpoint, request fields, and response mapping behind `music_generate`. | `cp -r skills/claude/music-generate ~/.claude/skills/` |
 
 ## How invocation works
 
