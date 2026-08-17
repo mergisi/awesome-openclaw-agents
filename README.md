@@ -475,6 +475,7 @@ Skills for [Claude Code](https://claude.com/claude-code), invoked via slash comm
 - **[model-cost-compare](./skills/claude/model-cost-compare/)** — Estimate token cost across Opus, Sonnet, GLM-5.1, Minimax M2.7, local Gemma for a task
 - **[excalidraw-architecture](./skills/claude/excalidraw-architecture/)** — Generate/update an Excalidraw architecture diagram from the current codebase
 - **[cost-optimizer](./skills/claude/cost-optimizer/)** — Audit a project's Claude Code usage for cost wins (bloated memory, cache misses, over-pinned Opus)
+- **[music-generate](./skills/claude/music-generate/)** — Produce background tracks, jingles, instrumentals, songs from lyrics, or covers with the bundled `music_generate` integration
 
 **[Browse all skills →](./skills/)**
 
