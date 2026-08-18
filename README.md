@@ -848,7 +848,7 @@ Want to request an agent instead? Use the [Agent Request](https://github.com/mer
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=mergisi/awesome-openclaw-agents&type=Date)](https://star-history.com/#mergisi/awesome-openclaw-agents&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=mergisi/awesome-openclaw-agents&type=Date)](https://star-history.dera.page/#mergisi/awesome-openclaw-agents&Date)
 
 ---
 
