@@ -1,4 +1,4 @@
-# 🦞 Awesome OpenClaw Agents
+﻿# 🦞 Awesome OpenClaw Agents
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -613,6 +613,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-shopify | Shopify store management |
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
+| [mandateguard](https://github.com/ezequiellich44-cmd/MandateGuard) | Deterministic payment policy enforcement (budgets, allowlists, rate limits, signed mandates) before any money-moving tool executes - no LLM in the decision path |
 | mcp-linear | Linear issue tracking |
 
 ---
