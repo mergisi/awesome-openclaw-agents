@@ -843,6 +843,7 @@ Want to request an agent instead? Use the [Agent Request](https://github.com/mer
 - [🦞 CrewClaw](https://crewclaw.com) - Deploy AI agents with zero config. No Docker, no terminal.
 - [OpenClaw](https://github.com/openclaw) - Official OpenClaw repository
 - [Anthropic MCP](https://github.com/anthropics/mcp) - Model Context Protocol
+- [awesome-agentic-ai](https://github.com/adriannoes/awesome-agentic-ai) - Learning hub that catalogs OpenClaw agents and indexes community OpenClaw skills, alongside Cursor and Claude Code material.
 
 ---
 
