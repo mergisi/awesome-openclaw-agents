@@ -476,6 +476,11 @@ Skills for [Claude Code](https://claude.com/claude-code), invoked via slash comm
 - **[excalidraw-architecture](./skills/claude/excalidraw-architecture/)** — Generate/update an Excalidraw architecture diagram from the current codebase
 - **[cost-optimizer](./skills/claude/cost-optimizer/)** — Audit a project's Claude Code usage for cost wins (bloated memory, cache misses, over-pinned Opus)
 
+### [OpenClaw](./skills/) — OpenClaw / Hermes
+On-device skills for the [OpenClaw](https://openclaw.ai) and [Hermes](https://nousresearch.com/hermes) agents.
+
+- **[mnemosyne](https://github.com/ElonAug7/Mnemosyne-agentmemory-engine-openclaw-hermes)** — Zero-dependency cognitive memory engine: compound-cue theory retrieval (nDCG 0.238, 5.2× over BM25), pure Markdown storage, zero API keys, data never leaves the machine
+
 **[Browse all skills →](./skills/)**
 
 ---
