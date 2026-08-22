@@ -646,6 +646,7 @@ Utilities and helpers for working with OpenClaw.
 | [agents.json](agents.json) | Machine-readable index of all 187 agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+| [magic-hour skill](https://github.com/RhythmP28/clawhub-magic-hour) | OpenClaw/ClawHub skill for AI video and image generation (Sora 2, Veo 3.1, Kling 3.0, face swap, lip sync) via the Magic Hour API; free tier, hosted MCP at `https://mcp.magichour.ai/` |
 
 ---
 
