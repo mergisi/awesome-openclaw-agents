@@ -614,6 +614,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
 | mcp-linear | Linear issue tracking |
+| [SandBase CLI](https://github.com/sandbaseai/cli) | Local CLI/MCP bridge for OpenClaw and other agent clients, with one provider/model layer for 2,000+ AI models/APIs |
 
 ---
 
