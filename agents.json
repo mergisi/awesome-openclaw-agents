@@ -1498,6 +1498,14 @@
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
+      "id": "x-twitter-ops-desk",
+      "category": "marketing",
+      "name": "X/Twitter Ops Desk",
+      "role": "Approval-First X/Twitter Operations Agent",
+      "path": "agents/marketing/x-twitter-ops-desk/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
       "id": "youtube-seo",
       "category": "marketing",
       "name": "YouTube SEO",
