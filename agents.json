@@ -1,5 +1,5 @@
 {
-  "total": 199,
+  "total": 200,
   "agents": [
     {
       "id": "churn-predictor",
@@ -64,6 +64,14 @@
       "role": "",
       "path": "agents/business/sales-assistant/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "support-flow",
+      "category": "business",
+      "name": "SupportFlow",
+      "role": "Complete Customer Support Agent \u2014 first-contact resolution with escalation rules, memory, and heartbeat",
+      "path": "agents/business/support-flow/SOUL.md",
+      "deploy": "https://cyberleo986.github.io/bizclaw-site/"
     },
     {
       "id": "whatsapp-business",
