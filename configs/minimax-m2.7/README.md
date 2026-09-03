@@ -93,7 +93,7 @@ This is not legal advice. This is "don't get surprised by a cease-and-desist." S
 
 3. **Worse at pure chat.** If the user asks a philosophical or open-ended question, M2.7 often responds like it's still trying to execute a task. For general-purpose chat, use a different model.
 
-4. **Self-hosted: watch your KV cache.** At 256K context the KV cache will eat VRAM. Most users end up running it at 64K effective context unless they're on 8x H100.
+4. **Self-hosted: watch your KV cache.** At 204,800 tokens of context the KV cache will eat VRAM. Most users end up running it at 64K effective context unless they're on 8x H100.
 
 ## Related Threads
 
