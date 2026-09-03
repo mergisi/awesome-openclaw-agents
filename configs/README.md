@@ -8,7 +8,7 @@ Drop-in agent configs for different model providers. Each folder is a self-conta
 |--------|----------|----------|--------|
 | [ollama](./ollama) | Local Ollama | Private, offline, no API cost | Stable |
 | [glm-5.1](./glm-5.1) | Zhipu GLM-5.1 | Opus 4.6 alternative, long-horizon coding | New |
-| [minimax-m2.7](./minimax-m2.7) | MiniMax M2.7 (229B) | Agentic SWE tasks, terminal workflows | New |
+| [minimax-m2.7](./minimax-m2.7) | MiniMax M3 and M2.7 | Agentic SWE tasks, terminal workflows | Updated |
 | [gpt-5.4](./gpt-5.4) | OpenAI GPT-5.4 | Reasoning-heavy tasks, Codex workflows | New |
 
 ## Which one should I pick?
