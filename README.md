@@ -646,6 +646,7 @@ Utilities and helpers for working with OpenClaw.
 | [agents.json](agents.json) | Machine-readable index of all 187 agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+| [ClawMetry](https://github.com/vivekchand/clawmetry) | Self-hosted observability and kill switch for OpenClaw agents, reads the session logs already on disk so there is no SDK and nothing in the request path ([clawmetry.com](https://clawmetry.com)) |
 
 ---
 
