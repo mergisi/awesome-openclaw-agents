@@ -646,6 +646,8 @@ Utilities and helpers for working with OpenClaw.
 | [agents.json](agents.json) | Machine-readable index of all 187 agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+| [flik2002/openclaw-monitor](https://github.com/flik2002/openclaw-monitor) | Free monitoring dashboard for OpenClaw agents: token usage, session tracking, 7-day trends, multi-model support. Vue 3 + ECharts |
+| [📊 OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | Free monitoring dashboard — token usage, session tracking, 7-day trends, multi-model JWT auth |
 
 ---
 
