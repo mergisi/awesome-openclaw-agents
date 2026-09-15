@@ -718,6 +718,8 @@ Learn how to build and deploy agents.
 - [OpenClaw vs memU](https://crewclaw.com/blog/openclaw-vs-memu) - Long-term memory AI
 - [PicoClaw vs OpenClaw](https://crewclaw.com/blog/picoclaw-vs-openclaw) - Ultra-minimal alternative
 - [OpenClaw GitHub Repository Guide](https://crewclaw.com/blog/openclaw-ai-agent-github-guide) - The 250K-star repo explained
+- [HostDeFi](https://hostdefi.com) - Agent-ready token-safety scanner with a public A2A agent card, hosted MCP server and x402-paid endpoints for autonomous checks.
+
 
 ---
 
