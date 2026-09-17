@@ -475,6 +475,7 @@ Skills for [Claude Code](https://claude.com/claude-code), invoked via slash comm
 - **[model-cost-compare](./skills/claude/model-cost-compare/)** — Estimate token cost across Opus, Sonnet, GLM-5.1, Minimax M2.7, local Gemma for a task
 - **[excalidraw-architecture](./skills/claude/excalidraw-architecture/)** — Generate/update an Excalidraw architecture diagram from the current codebase
 - **[cost-optimizer](./skills/claude/cost-optimizer/)** — Audit a project's Claude Code usage for cost wins (bloated memory, cache misses, over-pinned Opus)
+- **[cue-omni-reader](https://github.com/sensedeal/cue-skills/tree/main/cue-omni-reader)** — Parse web pages (including in-page video/attachments), PDFs (scanned & text-layer), audio, and video into Markdown. A pre-processing step for content that the other Claude skills in this section turn into polished output. Install: `npx skills add sensedeal/cue-skills --skill cue-omni-reader` (MIT; may bill). *By [@sensedeal](https://github.com/sensedeal)*
 
 **[Browse all skills →](./skills/)**
 
