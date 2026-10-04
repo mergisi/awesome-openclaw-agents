@@ -411,6 +411,7 @@ AI-powered voice and phone agents.
 | [📞 Phone Receptionist](agents/voice/phone-receptionist/) | Call handling, routing, appointments | When you need 24/7 phone coverage without staff | [View](agents/voice/phone-receptionist/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=customer-support) |
 | [📝 Voicemail Transcriber](agents/voice/voicemail-transcriber/) | Transcription, action item extraction | When voicemails need fast processing and routing | [View](agents/voice/voicemail-transcriber/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
 | [🎤 Interview Bot](agents/voice/interview-bot/) | Screening interviews, scoring rubrics | When you need structured candidate screening at scale | [View](agents/voice/interview-bot/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
+| [AI Group Call](https://aigroupcall.app) | An AI council you can talk to: a group voice call where agents riff with each other, answer when named, and yield when you speak. | - | - | - |
 
 ### 🤝 Customer Success `NEW`
 
