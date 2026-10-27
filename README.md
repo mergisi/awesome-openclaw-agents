@@ -180,6 +180,7 @@ Your AI assistant for daily life.
 | [👨‍👩‍👧‍👦 Family Coordinator](agents/personal/family-coordinator/) | Shared calendar, meals, chore rotation | When your family needs a shared organizer and planner | [View](agents/personal/family-coordinator/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
 | [✈️ Travel Planner](agents/personal/travel-planner/) | Itineraries, flights, hotels, budgets | When you need trip planning with smart recommendations | [View](agents/personal/travel-planner/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
 | [📓 Journal Prompter](agents/personal/journal-prompter/) | Daily prompts, mood tracking, goals | When you want guided daily journaling for reflection | [View](agents/personal/journal-prompter/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
+| [🧠 Mnemo](agents/personal/memory-assistant/) | Long-term memory across sessions via Membase MCP | When you want an assistant that remembers your preferences, decisions and open tasks | [View](agents/personal/memory-assistant/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
 
 ### 🚀 DevOps
 
