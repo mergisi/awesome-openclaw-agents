@@ -1,5 +1,5 @@
 {
-  "total": 199,
+  "total": 200,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1167,6 +1167,14 @@
       "name": "Journal Prompter",
       "role": "Journaling Agent",
       "path": "agents/personal/journal-prompter/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "memory-assistant",
+      "category": "personal",
+      "name": "Mnemo",
+      "role": "Personal Assistant with Long-Term Memory",
+      "path": "agents/personal/memory-assistant/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
