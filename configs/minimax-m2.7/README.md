@@ -1,6 +1,6 @@
 # MiniMax Agent Configs
 
-Drop-in OpenClaw configs for **MiniMax M3** and **MiniMax M2.7**, with M3 as the default model for this bundle.
+Drop-in OpenClaw configs for **MiniMax M3.1 Flash** and **MiniMax M3**, with M3 as the default model for this bundle.
 
 ## Why MiniMax models
 
@@ -59,17 +59,21 @@ client can append its request path.
 
 ## Model IDs
 
-| Model ID | Context | Input modalities | Thinking | Role |
-|----------|---------|------------------|----------|------|
-| `MiniMax-M3` | 1,000,000 | Text, image, video | Adaptive or disabled | Default |
-| `MiniMax-M2.7` | 204,800 | Text | Always on | Text-only alternative |
+| Model ID | Context | Input modalities | Thinking | Reasoning effort | Service tier | Role |
+|----------|---------|------------------|----------|------------------|--------------|------|
+| `MiniMax-M3.1-Flash` | 1,000,000 | Text, image, video | Adaptive | Low, medium, high, xhigh, or max (default) | No | Low-latency alternative |
+| `MiniMax-M3` | 1,000,000 | Text, image, video | Adaptive or disabled | Ignored | Yes | Default |
 
 ### Pricing and model parameters
 
-| Model | Input | Output | Cache read | Cache write |
-|-------|-------|--------|------------|-------------|
-| `MiniMax-M3` | $0.60/M | $2.40/M | $0.12/M | - |
-| `MiniMax-M2.7` | $0.30/M | $1.20/M | $0.06/M | $0.375/M |
+Prices below are per million tokens. MiniMax M3 priority service costs 1.5 times
+the applicable baseline rate.
+
+| Model and request size | Input | Output | Cache read |
+|------------------------|-------|--------|------------|
+| `MiniMax-M3.1-Flash` | $0.15 | $0.60 | $0.015 |
+| `MiniMax-M3` up to and including 512K tokens | $0.30 | $1.20 | $0.06 |
+| `MiniMax-M3` above 512K tokens | $0.60 | $2.40 | $0.12 |
 
 ## About `mmx-cli`
 
