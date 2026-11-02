@@ -1,5 +1,5 @@
 {
-  "total": 199,
+  "total": 200,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1592,6 +1592,14 @@
       "role": "Customer Support Agent (Ollama/Gemma4:e4b)",
       "path": "configs/ollama/customer-support/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "ponder-deliberator",
+      "category": "development",
+      "name": "Ponder",
+      "role": "Coverage-Gated Deliberation Reviewer",
+      "path": "agents/development/ponder-deliberator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent?role=software-engineer"
     }
   ]
 }
