@@ -614,6 +614,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
 | mcp-linear | Linear issue tracking |
+| [deja-vu](https://github.com/vshulcz/deja-vu) | Local cross-agent memory and recall across OpenClaw, Claude Code, Codex, Cursor, and 39 other agents (`deja install openclaw-auto` / `openclaw-deja`) |
 
 ---
 
@@ -646,6 +647,7 @@ Utilities and helpers for working with OpenClaw.
 | [agents.json](agents.json) | Machine-readable index of all agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+| [deja-vu (`openclaw-deja`)](https://github.com/vshulcz/deja-vu/tree/main/extensions/openclaw) | Native OpenClaw plugin, hooks, and full-text session search (`openclaw plugins install openclaw-deja`) |
 
 ---
 
