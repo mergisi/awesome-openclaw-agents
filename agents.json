@@ -1170,6 +1170,14 @@
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
+      "id": "memory-assistant",
+      "category": "personal",
+      "name": "Mnemo",
+      "role": "Personal Assistant with Long-Term Memory",
+      "path": "agents/personal/memory-assistant/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
       "id": "email-sequence",
       "category": "marketing",
       "name": "Email Sequence",
