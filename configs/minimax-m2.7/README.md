@@ -1,6 +1,6 @@
 # MiniMax Agent Configs
 
-Drop-in OpenClaw configs for **MiniMax M3.1 Flash** and **MiniMax M3**, with M3 as the default model for this bundle.
+Drop-in OpenClaw configs for **MiniMax M3.1 Flash** and **MiniMax M3**, with M3.1 Flash as the default model for this bundle.
 
 ## Why MiniMax models
 
@@ -61,8 +61,8 @@ client can append its request path.
 
 | Model ID | Context | Input modalities | Thinking | Reasoning effort | Service tier | Role |
 |----------|---------|------------------|----------|------------------|--------------|------|
-| `MiniMax-M3.1-Flash` | 1,000,000 | Text, image, video | Adaptive | Low, medium, high, xhigh, or max (default) | No | Low-latency alternative |
-| `MiniMax-M3` | 1,000,000 | Text, image, video | Adaptive or disabled | Ignored | Yes | Default |
+| `MiniMax-M3.1-Flash` | 1,000,000 | Text, image, video | Adaptive | Low, medium, high, xhigh, or max (default) | No | Default |
+| `MiniMax-M3` | 1,000,000 | Text, image, video | Adaptive or disabled | Ignored | Yes | Service-tier alternative |
 
 ### Pricing and model parameters
 
