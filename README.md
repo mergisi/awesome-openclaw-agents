@@ -615,6 +615,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
 | mcp-linear | Linear issue tracking |
+| [mach-gtm-mcp](https://github.com/verma6uc/mach-gtm-mcp) | Five outbound sales helpers: build an ICP, draft cold emails and LinkedIn messages from signals you provide, get a research checklist, score leads 0-100, and lay out multi-touch sequences. Template-based; it looks nothing up and sends nothing. `npx -y github:verma6uc/mach-gtm-mcp` |
 
 ---
 
