@@ -615,6 +615,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
 | mcp-linear | Linear issue tracking |
+| [nostairsplease-mcp](https://nostairsplease.com/mcp) | Live-music venue & booking contact search |
 
 ---
 
