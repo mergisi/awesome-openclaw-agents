@@ -1,5 +1,5 @@
 {
-  "total": 200,
+  "total": 201,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1600,6 +1600,14 @@
       "role": "Coverage-Gated Deliberation Reviewer",
       "path": "agents/development/ponder-deliberator/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent?role=software-engineer"
+    },
+    {
+      "id": "social-publisher",
+      "category": "marketing",
+      "name": "Social Publisher",
+      "role": "Social media publisher: posts, reports and replies across six networks",
+      "path": "agents/marketing/social-publisher/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
     }
   ]
 }
