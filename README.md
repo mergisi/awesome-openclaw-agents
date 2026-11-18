@@ -647,6 +647,7 @@ Utilities and helpers for working with OpenClaw.
 | [agents.json](agents.json) | Machine-readable index of all agent templates |
 | agent-validator | Validate SOUL.md syntax |
 | mcp-tester | Test MCP server connections |
+| [Vequil](https://vequil.com) | Observability layer for OpenClaw agents — detects loops, retry storms, and cost spikes in real time. Drop-in plugin (`pip install vequil`). |
 
 ---
 
