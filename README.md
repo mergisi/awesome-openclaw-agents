@@ -92,6 +92,7 @@ Getting more done with less effort.
 | [📝 Minutes](agents/productivity/meeting-notes/) | Meeting summaries, action item tracking | When you need automated meeting notes and follow-ups | [View](agents/productivity/meeting-notes/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
 | [🍅 Focus Timer](agents/productivity/focus-timer/) | Pomodoro, deep work session management | When you need structured focus time with accountability | [View](agents/productivity/focus-timer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
 | [✅ Habit Tracker](agents/productivity/habit-tracker/) | Daily habits, streaks, accountability | When you want daily check-ins and streak tracking | [View](agents/productivity/habit-tracker/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
+| [🧭 Skill Reviewer](agents/productivity/skill-reviewer/) | Post-install review of OpenClaw skills | When you want installed skills verified, re-checked after updates, and kept or removed | [View](agents/productivity/skill-reviewer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=personal-assistant) |
 
 ### 💻 Development
 
