@@ -1,5 +1,5 @@
 {
-  "total": 200,
+  "total": 201,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1535,6 +1535,14 @@
       "name": "Notion Organizer",
       "role": "Notion Workspace Organization Agent",
       "path": "agents/productivity/notion-organizer/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "skill-reviewer",
+      "category": "productivity",
+      "name": "Skill Reviewer",
+      "role": "Post-install OpenClaw Skill Review Agent",
+      "path": "agents/productivity/skill-reviewer/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
