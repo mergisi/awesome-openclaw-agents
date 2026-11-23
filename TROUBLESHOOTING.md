@@ -33,7 +33,7 @@ Start here. Match the symptom, confirm the cause in the linked section, then app
 | `openclaw agent --status` returns `UNKNOWN` | Sessions file corruption | Delete `~/.openclaw/agents/<name>/sessions/sessions.json` | [Bot is dead](#bot-is-dead--unresponsive) |
 | Claude API key banned despite pay-as-you-go | Burst rate-limit tripped abuse detection | Contact Anthropic support, throttle retries | [Claude Opus/Sonnet](#claude-opussonnet) |
 | GPT 5.4 "feels lobotomized" in OpenClaw | Config issue, not the model | Set `thinking=high` + `fastmode=true` | [GPT 5.4](#gpt-54) |
-| Minimax M2.7 agent refuses commercial tasks | Commercial license caveat | Switch provider or obtain license | [Minimax M2.7](#minimax-m27) |
+| Minimax agent refuses commercial tasks | Self-hosted M2.7 commercial license caveat | Switch to hosted M3 or obtain license | [Minimax](#minimax) |
 | Memory files grow unbounded, latency creeps up | Context bloat | Compile memory, prune unused entries | [Context bloat](#context-bloat-from-memory-files) |
 | Opus token count climbs with no new tasks | Advisor executor runaway loop | Kill executor, check `last-plan.json` | [Advisor loop runaway](#advisor-loop-runaway) |
 | Bot process alive but all agents report `stale` | Gateway heartbeat thread died | Restart gateway (`openclaw gateway restart`) | [Heartbeat](#heartbeat-failure-modes) |
@@ -269,11 +269,13 @@ Three live issues to know about:
 
 Generally stable. Known constraint: the OpenClaw provider adapter does not support tool streaming on GLM-5.1 yet, so tool-heavy agents will feel laggy. If your agent uses tools, prefer Claude or GPT.
 
-### Minimax M2.7
+### Minimax
 
-**Commercial license caveat:** the M2.7 checkpoint most people pull from the model hub is non-commercial only. If you use it in a product, you need a commercial license from Minimax. This is not an OpenClaw bug — but agents using M2.7 will sometimes refuse to complete commercial-looking prompts due to the system-level license notice baked into the weights.
+The bundle defaults to **MiniMax M3** on the hosted API (512K context, up to 128K output, image input), with M2.7 still supported for users who self-host the open weights.
 
-Fix: either obtain the commercial license, or swap to a different model for commercial deployments.
+**Commercial license caveat (self-hosted M2.7 only):** the M2.7 checkpoint most people pull from the model hub is non-commercial only. If you use it in a product, you need a commercial license from Minimax. This is not an OpenClaw bug — but agents using self-hosted M2.7 will sometimes refuse to complete commercial-looking prompts due to the system-level license notice baked into the weights.
+
+Fix: either obtain the commercial license, or use the hosted M3 / M2.7 API (whose TOS supersedes the weights license) for commercial deployments.
 
 ---
 

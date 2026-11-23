@@ -65,7 +65,7 @@ ls -la ~/.openclaw/agents/<name>/sessions/sessions.json
 Read `~/.openclaw/agents/<name>/SOUL.md` frontmatter to find the configured `model` and `provider`. Then:
 
 - **Anthropic (Opus 4.6, Sonnet 4.6):** `echo $ANTHROPIC_API_KEY | head -c 10` — confirm key exists.
-- **GLM-5.1 / Minimax M2.7:** check `~/.openclaw/providers.json` for the base URL and hit `/v1/models` with curl.
+- **GLM-5.1 / Minimax M3:** check `~/.openclaw/providers.json` for the base URL and hit `/v1/models` with curl.
 - **Gemma 4 local:** confirm Ollama or the local runtime is up (`curl localhost:11434/api/tags`).
 
 A 401 means bad key. A 429 means you're rate limited — retry with exponential backoff or switch model. Connection refused on localhost means the local runtime crashed.
