@@ -615,6 +615,7 @@ Model Context Protocol servers to extend agent capabilities.
 | mcp-twitter | Twitter/X posting |
 | mcp-discord | Discord bot integration |
 | mcp-linear | Linear issue tracking |
+| [levea-mcp-server](https://github.com/brajendrak00068/agentic-ai-video-production) | Autonomous AI video editor (viral clips, 200+ caption templates, 9:16 reframe, B-roll & cloud MP4 export) |
 
 ---
 
