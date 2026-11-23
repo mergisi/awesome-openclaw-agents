@@ -1,5 +1,5 @@
 {
-  "total": 200,
+  "total": 201,
   "agents": [
     {
       "id": "churn-predictor",
@@ -1599,6 +1599,14 @@
       "name": "Ponder",
       "role": "Coverage-Gated Deliberation Reviewer",
       "path": "agents/development/ponder-deliberator/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent?role=software-engineer"
+    },
+    {
+      "id": "launch-readiness-sentinel",
+      "category": "development",
+      "name": "Sentinel",
+      "role": "Pre-Launch Security, DNS & Crawler Readiness Auditor",
+      "path": "agents/development/launch-readiness-sentinel/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent?role=software-engineer"
     }
   ]

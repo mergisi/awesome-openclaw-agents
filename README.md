@@ -116,6 +116,7 @@ Building the future, one commit at a time.
 | [⚒️ Forge](agents/development/build-error-resolver/) | Next.js / Vercel / Turbopack build failure diagnosis | When the build is red and the error message isn't obvious | [View](agents/development/build-error-resolver/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 | [⚖️ Verdict](agents/development/pr-test-analyzer/) | PR merge-readiness: body vs diff fact-check, coverage gaps, regression traps | When you're reviewing a PR and want more than "CI green" | [View](agents/development/pr-test-analyzer/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 | [🤔 Ponder](agents/development/ponder-deliberator/) | Multi-perspective deliberation, coverage gates, append-only ledgers | When you need verified multi-pass code reviews that refuse to stop early | [View](agents/development/ponder-deliberator/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
+| [🛡️ Sentinel](agents/development/launch-readiness-sentinel/) | Pre-launch bundle secret leak, CSP/HSTS, SPF/DMARC DNS & llms.txt gate | Before shipping a web/SaaS release or new domain to production | [View](agents/development/launch-readiness-sentinel/SOUL.md) | [Deploy →](https://crewclaw.com/create-agent?role=software-engineer) |
 
 > **Want a Software Engineer agent ready to run?** [See the agent + deploy package →](https://crewclaw.com/create-agent?role=software-engineer)
 
